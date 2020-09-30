@@ -19,7 +19,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b663c671-72e8-4178-b288-51700f60bf01" name="Default Changelist" comment="" />
+    <list default="true" id="b663c671-72e8-4178-b288-51700f60bf01" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/1920x1080.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/1920x1080.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,11 +45,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1i8dfFM2ftZbzGvRHIfDs5HQvuu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
@@ -53,7 +70,16 @@
       <workItem from="1601293254706" duration="20000" />
       <workItem from="1601293279568" duration="101000" />
       <workItem from="1601455032462" duration="2000" />
+      <workItem from="1601455046696" duration="435000" />
     </task>
+    <task id="LOCAL-00001" summary="Passage sur apache">
+      <created>1601455163821</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601455163821</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,7 +97,20 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Passage sur apache" />
+    <option name="LAST_COMMIT_MESSAGE" value="Passage sur apache" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="663" y="322" width="583" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601455296561">
+      <screen x="0" y="29" width="1920" height="983" />
+    </state>
+    <state x="663" y="322" width="583" height="403" key="#com.intellij.fileTypes.FileTypeChooser/0.29.1920.983@0.29.1920.983" timestamp="1601455296561" />
+    <state x="555" y="256" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601455165941">
+      <screen x="0" y="29" width="1920" height="983" />
+    </state>
+    <state x="555" y="256" width="800" height="535" key="Vcs.Push.Dialog.v2/0.29.1920.983@0.29.1920.983" timestamp="1601455165941" />
     <state x="623" y="246" width="672" height="678" key="search.everywhere.popup" timestamp="1601293339752">
       <screen x="0" y="27" width="1920" height="1003" />
     </state>
