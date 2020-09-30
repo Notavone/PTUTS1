@@ -6,16 +6,16 @@ Création d'un site web d'entraide entre étudiants
 
 ## Composition du groupe
 
-*  Nathan BLIND HEITZ (👑)
-*  Émile BATKOWSKI
-*  Jules DELERS
-*  Léo HUGONNOT
-*  Vassily Delmas
+*  Nathan **BLIND HEITZ** (👑)
+*  Émile **BATKOWSKI**
+*  Jules **DELERS**
+*  Léo **HUGONNOT**
+*  Vassily **DELMAS**
 
 ## Tuteurs
 
-*  Ingrid COUTURIER
-*  Alain Millet (Site)
-*  Thierry Sahler (Éco-Droit)
+*  Ingrid **COUTURIER**
+*  Alain **MILLET** (Site)
+*  Thierry **SAHLER** (Éco-Droit)
 
 ---
