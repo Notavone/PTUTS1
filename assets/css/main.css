@@ -1,7 +1,22 @@
-.navbar {
+.navbar, footer {
     opacity: 98%;
 }
 
-.navbar {
-    margin-bottom: 20px;
+.nav-link {
+    border-bottom: 2px solid transparent;
+    border-right: 2px solid transparent;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+    border-radius: 0 7px 2px 7px;
+}
+
+body .container {
+    padding: 20px 0 100px;
+}
+
+textarea {
+    resize: none;
 }

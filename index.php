@@ -1,52 +1,71 @@
+<?php
+$title = "Accueil";
+$page = "navAccueil";
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <title>Title</title>
+    <?php include("./includes/head.php") ?>
 </head>
 <body class="bg-dark text-white">
-<nav class="navbar shadow-lg navbar-expand-lg sticky-top navbar-dark bg-dark">
-    <a class="navbar-brand" href="#"><img class="rounded-circle" width="50" height="50" src="./assets/img/150x150.png" alt=""></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item"><a class="nav-link" href="#">ACCUEIL</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">PAGE 1</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">PAGE 2</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">PAGE 3</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">PAGE 4</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">PAGE 5</a></li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">
-                    ÉQUIPE
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Nathan BLIND HEITZ</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Émile BATKOWSKI</a>
-                    <a class="dropdown-item" href="#">Vassily DELMAS</a>
-                    <a class="dropdown-item" href="#">Léo HUGONNOT</a>
-                    <a class="dropdown-item" href="#">Jules DELERS</a>
+<?php include("./includes/navbar.php") ?>
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="border-bottom pb-1 mb-2">Titre de niveau 1</h1>
+            </div>
+            <div class="col-6">
+                <img src="./assets/img/1920x1080.png" class="img-fluid rounded-lg" alt="">
+            </div>
+            <div class="col-6">
+                <img src="./assets/img/1920x1080.png" class="img-fluid rounded-lg" alt="">
+            </div>
+            <div class="col-12">
+                <h2 class="border-bottom pb-1 mb-2 mt-3">Titre de niveau 2</h2>
+                <div class="text-justify">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec justo interdum, dignissim
+                        metus
+                        nec, elementum dolor. Pellentesque et dolor a leo tempus eleifend vitae a ligula. Praesent
+                        consequat, turpis sed consectetur tempus, diam arcu luctus nibh, non tempus mauris augue sit
+                        amet
+                        libero. Proin erat urna, malesuada sed lectus non, mollis vestibulum felis. In sodales massa ut
+                        mauris sagittis bibendum. Morbi ullamcorper, diam quis porttitor eleifend, tortor purus
+                        vulputate
+                        nunc, aliquet luctus nunc nibh vel erat. Nam interdum mauris id purus suscipit luctus. Ut eu
+                        facilisis nisl, vel elementum enim. Vestibulum elementum risus et malesuada ultricies. Orci
+                        varius
+                        natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc varius
+                        pellentesque
+                        egestas. Ut ac condimentum nunc. Cras finibus ac dui at molestie. Mauris id dui suscipit, tempor
+                        quam et, fringilla nisl. Nam enim ipsum, eleifend condimentum ultricies id, auctor tempor
+                        sapien.
+                        Suspendisse auctor, quam quis vestibulum bibendum, ipsum sapien dictum lorem, placerat gravida
+                        diam
+                        mi ac justo.
+                    </p>
+                    <p>
+                        Nullam et rutrum dui, quis dignissim libero. Nam vehicula justo augue, ut sollicitudin arcu
+                        dapibus
+                        non. Aenean aliquam arcu non commodo molestie. Nam fermentum ex nunc. Fusce consectetur arcu in
+                        elit
+                        efficitur, nec vehicula arcu pellentesque. Fusce hendrerit convallis semper. Aenean lectus arcu,
+                        feugiat id vulputate et, rutrum id felis. Quisque volutpat ex tortor, ut feugiat dolor aliquet
+                        non.
+                        Pellentesque volutpat dignissim pellentesque. Donec bibendum lacus ac lorem dignissim, sit amet
+                        egestas sapien iaculis. Integer at nisl eget purus iaculis ullamcorper et non nulla. Morbi eget
+                        ligula tincidunt mauris ultricies vulputate ac non est. Donec ut tristique ante. Praesent ac
+                        varius
+                        magna. Nullam et tempor tortor. Suspendisse vitae risus vitae risus hendrerit efficitur eu a
+                        ante.
+                    </p>
                 </div>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="#">NOUS CONTACTER</a></li>
-        </ul>
+            </div>
+        </div>
     </div>
-</nav>
-<div class="container">
-    <div class="row">
-
-    </div>
-</div>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</main>
+<?php include("./includes/bodyEnd.php") ?>
 <!--
 __________________________░░__________________░░____░░░░░░__░░░░░░░░
 ______░░______________________████████______░░░░░░░░░░░░░░░░░░░░░░░░

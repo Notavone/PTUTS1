@@ -1,0 +1,14 @@
+{
+  "name": "",
+  "description": "",
+  "minimum-stability": "dev",
+  "license": "",
+  "authors": [
+    {
+      "name": "Léo Hugonnot",
+      "email": "leo.hugonnot@edu.univ-fcomte.fr"
+    }
+  ],
+  "require": {
+  }
+}

@@ -20,8 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b663c671-72e8-4178-b288-51700f60bf01" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/img/logo_IUT-BM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/logo_IUT-INFO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/equipe/emile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/equipe/jules.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/equipe/leo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/equipe/nathan.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/equipe/vassily.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/bodyEnd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/head.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/navbar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/ecodroit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PTUTS1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PTUTS1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +46,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution />
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,8 +73,27 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="proofread" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/page" />
+      <recent name="$PROJECT_DIR$/equipe" />
+      <recent name="$PROJECT_DIR$/includes" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/equipe" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
+      <option name="pathToComposerJson" value="$PROJECT_DIR$/composer.json" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -60,7 +106,18 @@
       <workItem from="1601293254706" duration="20000" />
       <workItem from="1601293279568" duration="101000" />
       <workItem from="1601455032462" duration="2000" />
-      <workItem from="1601455046696" duration="1445000" />
+      <workItem from="1601455046696" duration="2209000" />
+      <workItem from="1601468463000" duration="2614000" />
+      <workItem from="1601473581139" duration="7192000" />
+      <workItem from="1601485719889" duration="1663000" />
+      <workItem from="1601492969036" duration="101000" />
+      <workItem from="1601494844195" duration="802000" />
+      <workItem from="1601502426987" duration="2160000" />
+      <workItem from="1601535653752" duration="671000" />
+      <workItem from="1601540123964" duration="5950000" />
+      <workItem from="1601559682446" duration="5486000" />
+      <workItem from="1601571166880" duration="4342000" />
+      <workItem from="1601581067256" duration="4679000" />
     </task>
     <task id="LOCAL-00001" summary="Passage sur apache">
       <created>1601455163821</created>
@@ -83,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601456364140</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Typo">
+      <created>1601456511674</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601456511674</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,25 +170,47 @@
     <MESSAGE value="Passage sur apache" />
     <MESSAGE value="Passage sur heroku" />
     <MESSAGE value="Revert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert" />
+    <MESSAGE value="Typo" />
+    <MESSAGE value="test heroku" />
+    <option name="LAST_COMMIT_MESSAGE" value="test heroku" />
   </component>
   <component name="WindowStateProjectService">
     <state x="663" y="322" width="583" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601455296561">
       <screen x="0" y="29" width="1920" height="983" />
     </state>
     <state x="663" y="322" width="583" height="403" key="#com.intellij.fileTypes.FileTypeChooser/0.29.1920.983@0.29.1920.983" timestamp="1601455296561" />
-    <state x="449" y="155" width="1022" height="737" key="SettingsEditor" timestamp="1601456489795">
+    <state x="693" y="435" width="523" height="274" key="ComposerInitDialogKey" timestamp="1601585515431">
       <screen x="0" y="29" width="1920" height="983" />
     </state>
-    <state x="449" y="155" width="1022" height="737" key="SettingsEditor/0.29.1920.983@0.29.1920.983" timestamp="1601456489795" />
-    <state x="555" y="256" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601456365665">
+    <state x="693" y="435" width="523" height="274" key="ComposerInitDialogKey/0.29.1920.983@0.29.1920.983" timestamp="1601585515431" />
+    <state x="755" y="446" width="399" height="156" key="NewPhpFileDialog" timestamp="1601583847182">
       <screen x="0" y="29" width="1920" height="983" />
     </state>
-    <state x="555" y="256" width="800" height="535" key="Vcs.Push.Dialog.v2/0.29.1920.983@0.29.1920.983" timestamp="1601456365665" />
-    <state x="623" y="244" width="672" height="665" key="search.everywhere.popup" timestamp="1601456484455">
+    <state x="755" y="446" width="399" height="156" key="NewPhpFileDialog/0.29.1920.983@0.29.1920.983" timestamp="1601583847182" />
+    <state x="449" y="155" width="1022" height="737" key="SettingsEditor" timestamp="1601480882989">
+      <screen x="0" y="29" width="1920" height="983" />
+    </state>
+    <state x="449" y="155" width="1022" height="737" key="SettingsEditor/0.29.1920.983@0.29.1920.983" timestamp="1601480882989" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1601581879490">
+      <screen x="0" y="29" width="1920" height="983" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.29.1920.983@0.29.1920.983" timestamp="1601581879490" />
+    <state x="555" y="256" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601456513108">
+      <screen x="0" y="29" width="1920" height="983" />
+    </state>
+    <state x="555" y="256" width="800" height="535" key="Vcs.Push.Dialog.v2/0.29.1920.983@0.29.1920.983" timestamp="1601456513108" />
+    <state x="764" y="202" width="381" height="644" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601582553346">
+      <screen x="0" y="29" width="1920" height="983" />
+    </state>
+    <state x="764" y="202" width="381" height="644" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.29.1920.983@0.29.1920.983" timestamp="1601582553346" />
+    <state x="624" y="235" width="672" height="677" key="run.anything.popup" timestamp="1601571901667">
+      <screen x="0" y="29" width="1920" height="983" />
+    </state>
+    <state x="624" y="235" width="672" height="677" key="run.anything.popup/0.29.1920.983@0.29.1920.983" timestamp="1601571901667" />
+    <state x="623" y="244" width="672" height="665" key="search.everywhere.popup" timestamp="1601571595932">
       <screen x="0" y="29" width="1920" height="983" />
     </state>
     <state x="623" y="246" width="672" height="678" key="search.everywhere.popup/0.27.1920.1003@0.27.1920.1003" timestamp="1601293339752" />
-    <state x="623" y="244" width="672" height="665" key="search.everywhere.popup/0.29.1920.983@0.29.1920.983" timestamp="1601456484455" />
+    <state x="623" y="244" width="672" height="665" key="search.everywhere.popup/0.29.1920.983@0.29.1920.983" timestamp="1601571595932" />
   </component>
 </project>
