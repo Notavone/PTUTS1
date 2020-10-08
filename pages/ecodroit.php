@@ -116,6 +116,6 @@ $page = "navEco-Droit";
         </div>
     </div>
 </main>
-<?php include("../includes/bodyEnd.php") ?>
+<?php include("../includes/bodyEnd.php"); ?>
 </body>
 </html>

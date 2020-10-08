@@ -6,3 +6,4 @@ if (page.startsWith("navDrop")) {
     navDrop.addClass("font-weight-bold");
     navDrop.addClass("active");
 }
+$(".toast").toast();
