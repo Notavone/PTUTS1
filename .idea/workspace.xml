@@ -19,48 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b663c671-72e8-4178-b288-51700f60bf01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/phpmailer/phpmailer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/http-client" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/ralouphie/getallheaders/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/ralouphie/getallheaders/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/ralouphie/getallheaders/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/ralouphie/getallheaders/src/getallheaders.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/ralouphie/getallheaders/src/src/getallheaders.php" afterDir="false" />
+    <list default="true" id="b663c671-72e8-4178-b288-51700f60bf01" name="Default Changelist" comment="phpmailer">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/PTUTS1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PTUTS1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/150x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/150x150.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/1920x1080.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/1920x1080.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/logo_IUT-BM.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/logo_IUT-BM.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/logo_IUT-INFO.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/logo_IUT-INFO.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/equipe/emile.php" beforeDir="false" afterPath="$PROJECT_DIR$/equipe/emile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/equipe/jules.php" beforeDir="false" afterPath="$PROJECT_DIR$/equipe/jules.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/equipe/leo.php" beforeDir="false" afterPath="$PROJECT_DIR$/equipe/leo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/equipe/nathan.php" beforeDir="false" afterPath="$PROJECT_DIR$/equipe/nathan.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/equipe/vassily.php" beforeDir="false" afterPath="$PROJECT_DIR$/equipe/vassily.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/bodyEnd.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyEnd.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/head.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/navbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/ecodroit.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/ecodroit.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +120,7 @@
       <workItem from="1602143117761" duration="283000" />
       <workItem from="1602148694228" duration="2208000" />
       <workItem from="1602166814355" duration="3466000" />
-      <workItem from="1602172366217" duration="3631000" />
+      <workItem from="1602172366217" duration="5414000" />
     </task>
     <task id="LOCAL-00001" summary="Passage sur apache">
       <created>1601455163821</created>
@@ -193,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601585785561</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="phpmailer">
+      <created>1602176021876</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602176021876</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +189,8 @@
     <MESSAGE value="Revert" />
     <MESSAGE value="Typo" />
     <MESSAGE value="test heroku" />
-    <option name="LAST_COMMIT_MESSAGE" value="test heroku" />
+    <MESSAGE value="phpmailer" />
+    <option name="LAST_COMMIT_MESSAGE" value="phpmailer" />
   </component>
   <component name="WindowStateProjectService">
     <state x="663" y="322" width="583" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601455296561">
@@ -241,10 +213,10 @@
       <screen x="0" y="29" width="1920" height="983" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.29.1920.983@0.29.1920.983" timestamp="1601625190074" />
-    <state x="555" y="256" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601585787675">
+    <state x="555" y="256" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602176023677">
       <screen x="0" y="29" width="1920" height="983" />
     </state>
-    <state x="555" y="256" width="800" height="535" key="Vcs.Push.Dialog.v2/0.29.1920.983@0.29.1920.983" timestamp="1601585787675" />
+    <state x="555" y="256" width="800" height="535" key="Vcs.Push.Dialog.v2/0.29.1920.983@0.29.1920.983" timestamp="1602176023677" />
     <state x="764" y="202" width="381" height="644" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601582553346">
       <screen x="0" y="29" width="1920" height="983" />
     </state>
@@ -253,10 +225,10 @@
       <screen x="0" y="29" width="1920" height="983" />
     </state>
     <state x="624" y="235" width="672" height="677" key="run.anything.popup/0.29.1920.983@0.29.1920.983" timestamp="1602172901818" />
-    <state x="623" y="244" width="672" height="665" key="search.everywhere.popup" timestamp="1602150145314">
+    <state x="623" y="244" width="672" height="665" key="search.everywhere.popup" timestamp="1602176010002">
       <screen x="0" y="29" width="1920" height="983" />
     </state>
     <state x="623" y="246" width="672" height="678" key="search.everywhere.popup/0.27.1920.1003@0.27.1920.1003" timestamp="1601293339752" />
-    <state x="623" y="244" width="672" height="665" key="search.everywhere.popup/0.29.1920.983@0.29.1920.983" timestamp="1602150145314" />
+    <state x="623" y="244" width="672" height="665" key="search.everywhere.popup/0.29.1920.983@0.29.1920.983" timestamp="1602176010002" />
   </component>
 </project>
