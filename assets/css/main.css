@@ -20,3 +20,9 @@ body .container {
 textarea {
     resize: none;
 }
+
+pre {
+    overflow: hidden;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}

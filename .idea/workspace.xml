@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b663c671-72e8-4178-b288-51700f60bf01" name="Default Changelist" comment="phpmailer">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PTUTS1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PTUTS1.iml" afterDir="false" />
+    <list default="true" id="b663c671-72e8-4178-b288-51700f60bf01" name="Default Changelist" comment="gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/bodyEnd.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyEnd.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/mail.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +119,9 @@
       <workItem from="1602143117761" duration="283000" />
       <workItem from="1602148694228" duration="2208000" />
       <workItem from="1602166814355" duration="3466000" />
-      <workItem from="1602172366217" duration="5414000" />
+      <workItem from="1602172366217" duration="6679000" />
+      <workItem from="1602225131853" duration="907000" />
+      <workItem from="1602226824042" duration="167000" />
     </task>
     <task id="LOCAL-00001" summary="Passage sur apache">
       <created>1601455163821</created>
@@ -164,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602176021876</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="gitignore">
+      <created>1602179946945</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602179946945</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +198,8 @@
     <MESSAGE value="Typo" />
     <MESSAGE value="test heroku" />
     <MESSAGE value="phpmailer" />
-    <option name="LAST_COMMIT_MESSAGE" value="phpmailer" />
+    <MESSAGE value="gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="663" y="322" width="583" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601455296561">
@@ -213,10 +222,10 @@
       <screen x="0" y="29" width="1920" height="983" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.29.1920.983@0.29.1920.983" timestamp="1601625190074" />
-    <state x="555" y="256" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602176023677">
+    <state x="555" y="256" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602179948611">
       <screen x="0" y="29" width="1920" height="983" />
     </state>
-    <state x="555" y="256" width="800" height="535" key="Vcs.Push.Dialog.v2/0.29.1920.983@0.29.1920.983" timestamp="1602176023677" />
+    <state x="555" y="256" width="800" height="535" key="Vcs.Push.Dialog.v2/0.29.1920.983@0.29.1920.983" timestamp="1602179948611" />
     <state x="764" y="202" width="381" height="644" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601582553346">
       <screen x="0" y="29" width="1920" height="983" />
     </state>

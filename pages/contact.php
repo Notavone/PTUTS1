@@ -13,7 +13,7 @@ $page = "navContact";
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1 class="border-bottom pb-1 mb-3 text-center">Formulaire de contact</h1>
+                <h1 class="border-bottom pb-1 mb-3">Formulaire de contact</h1>
                 <form method="post" action="mail.php">
                     <div class="form-row">
                         <div class="form-group col-sm-6 col-lg-4">

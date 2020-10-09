@@ -96,5 +96,6 @@ if (isset($prenom) && isset($nom) && isset($mail) && isset($sujet) && isset($tex
         </div>
     </div>
 </main>
+<?php include("../includes/bodyEnd.php") ?>
 </body>
 </html>
