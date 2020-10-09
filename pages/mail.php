@@ -19,6 +19,7 @@ $tel = $method["tel"];
 $mail = $method["mail"];
 $sujet = $method["sujet"];
 $text = $method["text"];
+$body = "";
 
 if (isset($prenom) && isset($nom) && isset($mail) && isset($sujet) && isset($text) && isset($tel)) {
     $champsVide = 0;
@@ -44,12 +45,16 @@ if (isset($prenom) && isset($nom) && isset($mail) && isset($sujet) && isset($tex
             $phpMail->isHTML(true);
             $phpMail->CharSet = 'UTF-8';
             $phpMail->Subject = $sujet;
-            $phpMail->Body = "<b>De : </b>" . $prenom . " " . $nom .
-                "<br><b>Numéro de téléphone : </b>" . $tel .
-                "<br><b>Adresse mail : </b>" . $mail .
+
+            $body = "<b>De : </b>" . $prenom . " " . $nom;
+            if ($tel != "") {
+                $body = $body . "<br><b>Numéro de téléphone : </b>" . $tel;
+            }
+            $body = $body . "<br><b>Adresse mail : </b>" . $mail .
                 "<br><b>Sujet : </b><br>" . $sujet .
                 "<br><b>Texte : </b><br>" . $text;
 
+            $phpMail->Body = $body;
             if ($phpMail->send()) {
                 $success = true;
             }
@@ -72,9 +77,9 @@ if (isset($prenom) && isset($nom) && isset($mail) && isset($sujet) && isset($tex
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1 class="border-bottom pb-1 mb-3 text-center"><?php if ($success) echo "Message envoyé !"; else echo "Erreur!" ?></h1>
                 <?php
                 if ($success) {
+                    echo "<h1 class='border-bottom pb-1 mb-3 text-center'>Message envoyé!</h1>";
                     echo "<h3 class='pb-1 mb-1 text-center'>Récapitulatif</h3>";
                     echo "<h4>Votre prénom :</h4>" . $prenom;
                     echo "<h4>Votre nom :</h4>" . $nom;
@@ -82,6 +87,7 @@ if (isset($prenom) && isset($nom) && isset($mail) && isset($sujet) && isset($tex
                     if ($tel != "") {
                         echo "<h4>Votre numéro de téléphone :</h4>" . $tel;
                     }
+                    echo "<h1 class='border-bottom pb-1 mb-3 text-center'>Erreur!</h1>";
                     echo "<h4>Sujet de votre mail :</h4>" . $sujet;
                     echo "<h4 class='pb-1 mb-1'>Contenu de votre mail :</h4><pre class='text-white'>" . $text . "</pre>";
                 } else {

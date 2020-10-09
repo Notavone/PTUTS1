@@ -22,7 +22,6 @@
     <list default="true" id="b663c671-72e8-4178-b288-51700f60bf01" name="Default Changelist" comment="gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/mail.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +120,10 @@
       <workItem from="1602166814355" duration="3466000" />
       <workItem from="1602172366217" duration="6679000" />
       <workItem from="1602225131853" duration="907000" />
-      <workItem from="1602226824042" duration="167000" />
+      <workItem from="1602226824042" duration="348000" />
+      <workItem from="1602227245444" duration="437000" />
+      <workItem from="1602227998089" duration="423000" />
+      <workItem from="1602228994249" duration="725000" />
     </task>
     <task id="LOCAL-00001" summary="Passage sur apache">
       <created>1601455163821</created>
@@ -172,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602179946945</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="maj css &amp; ajout footer au récap de mail">
+      <created>1602227021573</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602227021574</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +208,8 @@
     <MESSAGE value="test heroku" />
     <MESSAGE value="phpmailer" />
     <MESSAGE value="gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+    <MESSAGE value="maj css &amp; ajout footer au récap de mail" />
+    <option name="LAST_COMMIT_MESSAGE" value="maj css &amp; ajout footer au récap de mail" />
   </component>
   <component name="WindowStateProjectService">
     <state x="663" y="322" width="583" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601455296561">
@@ -222,10 +232,10 @@
       <screen x="0" y="29" width="1920" height="983" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.29.1920.983@0.29.1920.983" timestamp="1601625190074" />
-    <state x="555" y="256" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602179948611">
+    <state x="555" y="256" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602227025400">
       <screen x="0" y="29" width="1920" height="983" />
     </state>
-    <state x="555" y="256" width="800" height="535" key="Vcs.Push.Dialog.v2/0.29.1920.983@0.29.1920.983" timestamp="1602179948611" />
+    <state x="555" y="256" width="800" height="535" key="Vcs.Push.Dialog.v2/0.29.1920.983@0.29.1920.983" timestamp="1602227025400" />
     <state x="764" y="202" width="381" height="644" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601582553346">
       <screen x="0" y="29" width="1920" height="983" />
     </state>
@@ -234,10 +244,10 @@
       <screen x="0" y="29" width="1920" height="983" />
     </state>
     <state x="624" y="235" width="672" height="677" key="run.anything.popup/0.29.1920.983@0.29.1920.983" timestamp="1602172901818" />
-    <state x="623" y="244" width="672" height="665" key="search.everywhere.popup" timestamp="1602176010002">
+    <state x="623" y="244" width="672" height="665" key="search.everywhere.popup" timestamp="1602228364602">
       <screen x="0" y="29" width="1920" height="983" />
     </state>
     <state x="623" y="246" width="672" height="678" key="search.everywhere.popup/0.27.1920.1003@0.27.1920.1003" timestamp="1601293339752" />
-    <state x="623" y="244" width="672" height="665" key="search.everywhere.popup/0.29.1920.983@0.29.1920.983" timestamp="1602176010002" />
+    <state x="623" y="244" width="672" height="665" key="search.everywhere.popup/0.29.1920.983@0.29.1920.983" timestamp="1602228364602" />
   </component>
 </project>
