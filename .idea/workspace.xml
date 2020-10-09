@@ -21,11 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b663c671-72e8-4178-b288-51700f60bf01" name="Default Changelist" comment="gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/bodyEnd.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyEnd.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/equipe/leo.php" beforeDir="false" afterPath="$PROJECT_DIR$/equipe/leo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/head.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/navbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="composer.json" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -73,6 +73,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -126,7 +127,14 @@
       <workItem from="1602226824042" duration="348000" />
       <workItem from="1602227245444" duration="437000" />
       <workItem from="1602227998089" duration="423000" />
-      <workItem from="1602228994249" duration="2262000" />
+      <workItem from="1602228994249" duration="3191000" />
+      <workItem from="1602232953253" duration="5000" />
+      <workItem from="1602233454704" duration="1399000" />
+      <workItem from="1602235608388" duration="251000" />
+      <workItem from="1602240657913" duration="63000" />
+      <workItem from="1602254362522" duration="1563000" />
+      <workItem from="1602257171673" duration="813000" />
+      <workItem from="1602260886272" duration="43000" />
     </task>
     <task id="LOCAL-00001" summary="Passage sur apache">
       <created>1601455163821</created>
@@ -191,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602229759125</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="correction du doc root">
+      <created>1602231489762</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602231489762</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +235,8 @@
     <MESSAGE value="gitignore" />
     <MESSAGE value="maj css &amp; ajout footer au récap de mail" />
     <MESSAGE value="correction du numéro de téléphone" />
-    <option name="LAST_COMMIT_MESSAGE" value="correction du numéro de téléphone" />
+    <MESSAGE value="correction du doc root" />
+    <option name="LAST_COMMIT_MESSAGE" value="correction du doc root" />
   </component>
   <component name="WindowStateProjectService">
     <state x="663" y="322" width="583" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601455296561">
@@ -235,10 +251,10 @@
       <screen x="0" y="29" width="1920" height="983" />
     </state>
     <state x="693" y="435" width="523" height="274" key="ComposerInitDialogKey/0.29.1920.983@0.29.1920.983" timestamp="1601585515431" />
-    <state x="755" y="446" width="399" height="156" key="NewPhpFileDialog" timestamp="1602169409934">
+    <state x="755" y="446" width="399" height="156" key="NewPhpFileDialog" timestamp="1602235694976">
       <screen x="0" y="29" width="1920" height="983" />
     </state>
-    <state x="755" y="446" width="399" height="156" key="NewPhpFileDialog/0.29.1920.983@0.29.1920.983" timestamp="1602169409934" />
+    <state x="755" y="446" width="399" height="156" key="NewPhpFileDialog/0.29.1920.983@0.29.1920.983" timestamp="1602235694976" />
     <state x="449" y="155" width="1022" height="737" key="SettingsEditor" timestamp="1601480882989">
       <screen x="0" y="29" width="1920" height="983" />
     </state>
@@ -247,10 +263,10 @@
       <screen x="0" y="29" width="1920" height="983" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.29.1920.983@0.29.1920.983" timestamp="1601625190074" />
-    <state x="555" y="256" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602229761142">
+    <state x="555" y="256" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602231491296">
       <screen x="0" y="29" width="1920" height="983" />
     </state>
-    <state x="555" y="256" width="800" height="535" key="Vcs.Push.Dialog.v2/0.29.1920.983@0.29.1920.983" timestamp="1602229761142" />
+    <state x="555" y="256" width="800" height="535" key="Vcs.Push.Dialog.v2/0.29.1920.983@0.29.1920.983" timestamp="1602231491296" />
     <state x="764" y="202" width="381" height="644" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601582553346">
       <screen x="0" y="29" width="1920" height="983" />
     </state>

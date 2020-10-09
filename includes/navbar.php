@@ -1,7 +1,7 @@
 <nav class="navbar shadow-lg navbar-expand-lg sticky-top navbar-dark bg-dark">
     <a class="navbar-brand" href="/"><img class="rounded-circle" width="50" height="50"
-                                                            src="/assets/img/logo_IUT-INFO.png"
-                                                            alt=""></a>
+                                          src="/assets/img/logo_IUT-INFO.png"
+                                          alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
