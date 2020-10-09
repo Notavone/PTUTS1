@@ -87,10 +87,10 @@ if (isset($prenom) && isset($nom) && isset($mail) && isset($sujet) && isset($tex
                     if ($tel != "") {
                         echo "<h4>Votre numéro de téléphone :</h4>" . $tel;
                     }
-                    echo "<h1 class='border-bottom pb-1 mb-3 text-center'>Erreur!</h1>";
                     echo "<h4>Sujet de votre mail :</h4>" . $sujet;
                     echo "<h4 class='pb-1 mb-1'>Contenu de votre mail :</h4><pre class='text-white'>" . $text . "</pre>";
                 } else {
+                    echo "<h1 class='border-bottom pb-1 mb-3 text-center'>Erreur!</h1>";
                     if ($phpMail->ErrorInfo == "") {
                         echo $e;
                     } else {

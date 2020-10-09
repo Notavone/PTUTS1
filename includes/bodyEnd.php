@@ -1,6 +1,3 @@
-<?php
-$root = "http://" . $_SERVER["HTTP_HOST"];
-?>
 <footer class="fixed-bottom text-center p-3 shadow-lg bg-dark">
     <a href="https://github.com/Notavone/PTUTS1" class="m-2"><img
                 src="https://img.icons8.com/material-sharp/48/FFFFFF/github.png"
@@ -17,4 +14,4 @@ $root = "http://" . $_SERVER["HTTP_HOST"];
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script>const page = "<?php echo $page ?>"</script>
-<script src="<?php echo $root . "/assets/js/main.js" ?>"></script>
+<script src="/assets/js/main.js"></script>
