@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,11 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b663c671-72e8-4178-b288-51700f60bf01" name="Default Changelist" comment="gitignore">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/equipe/leo.php" beforeDir="false" afterPath="$PROJECT_DIR$/equipe/leo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/head.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/navbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Monoton-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/monoton-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/150x150.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,16 +77,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="IntelliLang.Configuration" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$/page" />
       <recent name="$PROJECT_DIR$/equipe" />
       <recent name="$PROJECT_DIR$/includes" />
@@ -134,7 +140,23 @@
       <workItem from="1602240657913" duration="63000" />
       <workItem from="1602254362522" duration="1563000" />
       <workItem from="1602257171673" duration="813000" />
-      <workItem from="1602260886272" duration="43000" />
+      <workItem from="1602260886272" duration="846000" />
+      <workItem from="1602414442389" duration="73000" />
+      <workItem from="1602434899099" duration="2218000" />
+      <workItem from="1602437325878" duration="443000" />
+      <workItem from="1602490553880" duration="208000" />
+      <workItem from="1602494398783" duration="1633000" />
+      <workItem from="1602500632103" duration="3242000" />
+      <workItem from="1602509988053" duration="1006000" />
+      <workItem from="1602511770223" duration="1356000" />
+      <workItem from="1602524956372" duration="119000" />
+      <workItem from="1602528085460" duration="2719000" />
+      <workItem from="1602569077687" duration="7899000" />
+      <workItem from="1602580036758" duration="661000" />
+      <workItem from="1602584488189" duration="176000" />
+      <workItem from="1602588828063" duration="840000" />
+      <workItem from="1602593470376" duration="446000" />
+      <workItem from="1602594715305" duration="1431000" />
     </task>
     <task id="LOCAL-00001" summary="Passage sur apache">
       <created>1601455163821</created>
@@ -206,7 +228,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602231489762</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="responsive">
+      <created>1602261375189</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1602261375189</updated>
+    </task>
+    <task id="LOCAL-00012" summary="modification README.md">
+      <created>1602593793832</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1602593793832</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,17 +272,28 @@
     <MESSAGE value="maj css &amp; ajout footer au récap de mail" />
     <MESSAGE value="correction du numéro de téléphone" />
     <MESSAGE value="correction du doc root" />
-    <option name="LAST_COMMIT_MESSAGE" value="correction du doc root" />
+    <MESSAGE value="responsive" />
+    <MESSAGE value="modification README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="modification README.md" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="663" y="322" width="583" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601455296561">
-      <screen x="0" y="29" width="1920" height="983" />
+    <state x="663" y="321" width="673" height="404" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602589197495">
+      <screen x="0" y="27" width="1920" height="985" />
     </state>
+    <state x="663" y="321" width="673" height="404" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.985@0.27.1920.985" timestamp="1602589197495" />
     <state x="663" y="322" width="583" height="403" key="#com.intellij.fileTypes.FileTypeChooser/0.29.1920.983@0.29.1920.983" timestamp="1601455296561" />
+    <state x="693" y="268" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602529182659">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="693" y="268" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.985@0.27.1920.985" timestamp="1602529182659" />
     <state x="802" y="226" width="305" height="595" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#function1" timestamp="1602230456955">
       <screen x="0" y="29" width="1920" height="983" />
     </state>
     <state x="802" y="226" width="305" height="595" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#function1/0.29.1920.983@0.29.1920.983" timestamp="1602230456955" />
+    <state x="690" y="305" width="540" height="451" key="#org.intellij.plugins.intelliLang.inject.config.ui.BaseInjectionDialog" timestamp="1602435088748">
+      <screen x="0" y="29" width="1920" height="983" />
+    </state>
+    <state x="690" y="305" width="540" height="451" key="#org.intellij.plugins.intelliLang.inject.config.ui.BaseInjectionDialog/0.29.1920.983@0.29.1920.983" timestamp="1602435088748" />
     <state x="693" y="435" width="523" height="274" key="ComposerInitDialogKey" timestamp="1601585515431">
       <screen x="0" y="29" width="1920" height="983" />
     </state>
@@ -255,30 +302,37 @@
       <screen x="0" y="29" width="1920" height="983" />
     </state>
     <state x="755" y="446" width="399" height="156" key="NewPhpFileDialog/0.29.1920.983@0.29.1920.983" timestamp="1602235694976" />
-    <state x="449" y="155" width="1022" height="737" key="SettingsEditor" timestamp="1601480882989">
+    <state x="449" y="155" width="1022" height="737" key="SettingsEditor" timestamp="1602435095182">
       <screen x="0" y="29" width="1920" height="983" />
     </state>
-    <state x="449" y="155" width="1022" height="737" key="SettingsEditor/0.29.1920.983@0.29.1920.983" timestamp="1601480882989" />
+    <state x="449" y="155" width="1022" height="737" key="SettingsEditor/0.29.1920.983@0.29.1920.983" timestamp="1602435095182" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1601625190074">
       <screen x="0" y="29" width="1920" height="983" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.29.1920.983@0.29.1920.983" timestamp="1601625190074" />
-    <state x="555" y="256" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602231491296">
-      <screen x="0" y="29" width="1920" height="983" />
+    <state x="555" y="254" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602593796184">
+      <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state x="555" y="256" width="800" height="535" key="Vcs.Push.Dialog.v2/0.29.1920.983@0.29.1920.983" timestamp="1602231491296" />
+    <state x="555" y="254" key="Vcs.Push.Dialog.v2/0.27.1920.985@0.27.1920.985" timestamp="1602593796184" />
+    <state x="555" y="256" width="800" height="535" key="Vcs.Push.Dialog.v2/0.29.1920.983@0.29.1920.983" timestamp="1602261378799" />
     <state x="764" y="202" width="381" height="644" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601582553346">
       <screen x="0" y="29" width="1920" height="983" />
     </state>
     <state x="764" y="202" width="381" height="644" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.29.1920.983@0.29.1920.983" timestamp="1601582553346" />
-    <state x="624" y="235" width="672" height="677" key="run.anything.popup" timestamp="1602172901818">
-      <screen x="0" y="29" width="1920" height="983" />
+    <state x="651" y="128" width="618" height="783" key="find.popup" timestamp="1602573368585">
+      <screen x="0" y="27" width="1920" height="985" />
     </state>
+    <state x="651" y="128" width="618" height="783" key="find.popup/0.27.1920.985@0.27.1920.985" timestamp="1602573368585" />
+    <state x="624" y="233" width="672" height="679" key="run.anything.popup" timestamp="1602504084143">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="624" y="233" width="672" height="679" key="run.anything.popup/0.27.1920.985@0.27.1920.985" timestamp="1602504084143" />
     <state x="624" y="235" width="672" height="677" key="run.anything.popup/0.29.1920.983@0.29.1920.983" timestamp="1602172901818" />
-    <state x="623" y="244" width="672" height="665" key="search.everywhere.popup" timestamp="1602230532496">
-      <screen x="0" y="29" width="1920" height="983" />
+    <state x="623" y="242" width="672" height="667" key="search.everywhere.popup" timestamp="1602593545799">
+      <screen x="0" y="27" width="1920" height="985" />
     </state>
     <state x="623" y="246" width="672" height="678" key="search.everywhere.popup/0.27.1920.1003@0.27.1920.1003" timestamp="1601293339752" />
-    <state x="623" y="244" width="672" height="665" key="search.everywhere.popup/0.29.1920.983@0.29.1920.983" timestamp="1602230532496" />
+    <state x="623" y="242" width="672" height="667" key="search.everywhere.popup/0.27.1920.985@0.27.1920.985" timestamp="1602593545799" />
+    <state x="623" y="244" width="672" height="665" key="search.everywhere.popup/0.29.1920.983@0.29.1920.983" timestamp="1602434995953" />
   </component>
 </project>

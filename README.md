@@ -2,7 +2,7 @@
 
 ## Sujet
 
-Création d'un site web d'entraide entre étudiants
+*A redéfinir*
 
 ## Composition du groupe
 
@@ -14,8 +14,15 @@ Création d'un site web d'entraide entre étudiants
 
 ## Tuteurs
 
-*  Ingrid **COUTURIER**
-*  Alain **MILLET** (Site)
+*  Ingrid **COUTURIER** (Fond)
+*  Alain **MILLET** (Forme)
 *  Thierry **SAHLER** (Éco-Droit)
+
+## Chemin d'accès aux ressources
+
+[/assets/img/](./assets/img)
+
+## URL du site hébergé
+[crousxchange.herokuapp.com](https://crousxchange.herokuapp.com/)
 
 ---

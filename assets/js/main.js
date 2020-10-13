@@ -1,3 +1,6 @@
+let container = $(".container");
+let footer = $("#footer");
+
 if (page) {
     let selPage = $(`#${page}`);
     let navDrop = $("#navbarDropdown");
@@ -8,3 +11,5 @@ if (page) {
         navDrop.addClass("active");
     }
 }
+
+container.css("padding-bottom", (footer.outerHeight() + 10));
