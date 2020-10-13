@@ -23,12 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b663c671-72e8-4178-b288-51700f60bf01" name="Default Changelist" comment="gitignore">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Monoton-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/monoton-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/head.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +153,7 @@
       <workItem from="1602584488189" duration="176000" />
       <workItem from="1602588828063" duration="840000" />
       <workItem from="1602593470376" duration="446000" />
-      <workItem from="1602594715305" duration="1431000" />
+      <workItem from="1602594715305" duration="2050000" />
     </task>
     <task id="LOCAL-00001" summary="Passage sur apache">
       <created>1601455163821</created>
@@ -242,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602593793832</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="modification README.md&#10;ajout de monoton-regular.ttf">
+      <created>1602596230375</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1602596230375</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,7 +278,8 @@
     <MESSAGE value="correction du doc root" />
     <MESSAGE value="responsive" />
     <MESSAGE value="modification README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="modification README.md" />
+    <MESSAGE value="modification README.md&#10;ajout de monoton-regular.ttf" />
+    <option name="LAST_COMMIT_MESSAGE" value="modification README.md&#10;ajout de monoton-regular.ttf" />
   </component>
   <component name="WindowStateProjectService">
     <state x="663" y="321" width="673" height="404" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602589197495">
@@ -298,6 +303,10 @@
       <screen x="0" y="29" width="1920" height="983" />
     </state>
     <state x="693" y="435" width="523" height="274" key="ComposerInitDialogKey/0.29.1920.983@0.29.1920.983" timestamp="1601585515431" />
+    <state x="591" y="282" width="728" height="482" key="MultipleFileMergeDialog" timestamp="1602596251580">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="591" y="282" width="728" height="482" key="MultipleFileMergeDialog/0.27.1920.985@0.27.1920.985" timestamp="1602596251580" />
     <state x="755" y="446" width="399" height="156" key="NewPhpFileDialog" timestamp="1602235694976">
       <screen x="0" y="29" width="1920" height="983" />
     </state>
@@ -310,10 +319,10 @@
       <screen x="0" y="29" width="1920" height="983" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.29.1920.983@0.29.1920.983" timestamp="1601625190074" />
-    <state x="555" y="254" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602593796184">
+    <state x="555" y="254" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602596261712">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state x="555" y="254" key="Vcs.Push.Dialog.v2/0.27.1920.985@0.27.1920.985" timestamp="1602593796184" />
+    <state x="555" y="254" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.985@0.27.1920.985" timestamp="1602596261712" />
     <state x="555" y="256" width="800" height="535" key="Vcs.Push.Dialog.v2/0.29.1920.983@0.29.1920.983" timestamp="1602261378799" />
     <state x="764" y="202" width="381" height="644" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601582553346">
       <screen x="0" y="29" width="1920" height="983" />
@@ -328,11 +337,11 @@
     </state>
     <state x="624" y="233" width="672" height="679" key="run.anything.popup/0.27.1920.985@0.27.1920.985" timestamp="1602504084143" />
     <state x="624" y="235" width="672" height="677" key="run.anything.popup/0.29.1920.983@0.29.1920.983" timestamp="1602172901818" />
-    <state x="623" y="242" width="672" height="667" key="search.everywhere.popup" timestamp="1602593545799">
+    <state x="623" y="242" width="672" height="667" key="search.everywhere.popup" timestamp="1602596257756">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
     <state x="623" y="246" width="672" height="678" key="search.everywhere.popup/0.27.1920.1003@0.27.1920.1003" timestamp="1601293339752" />
-    <state x="623" y="242" width="672" height="667" key="search.everywhere.popup/0.27.1920.985@0.27.1920.985" timestamp="1602593545799" />
+    <state x="623" y="242" width="672" height="667" key="search.everywhere.popup/0.27.1920.985@0.27.1920.985" timestamp="1602596257756" />
     <state x="623" y="244" width="672" height="665" key="search.everywhere.popup/0.29.1920.983@0.29.1920.983" timestamp="1602434995953" />
   </component>
 </project>
