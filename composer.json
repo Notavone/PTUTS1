@@ -1,12 +1,28 @@
 {
-  "name": "",
+  "name": "crousxchange/crousxchange",
   "description": "",
   "minimum-stability": "dev",
-  "license": "",
+  "license": "GPL-3.0-or-later",
   "authors": [
     {
       "name": "Léo Hugonnot",
       "email": "leo.hugonnot@edu.univ-fcomte.fr"
+    },
+    {
+      "name": "Jules Delers",
+      "email": "jules.delers@edu.univ-fcomte.fr"
+    },
+    {
+      "name": "Nathan Blind Heitz",
+      "email": "nathan.blind_heitz@edu.univ-fcomte.fr"
+    },
+    {
+      "name": "Émile Batkowski",
+      "email": "emile.batkowski@edu.univ-fcomte.fr"
+    },
+    {
+      "name": "Vassily Delmas",
+      "email": "vassily.delmas@edu.univ-fcomte.fr"
     }
   ],
   "require": {
