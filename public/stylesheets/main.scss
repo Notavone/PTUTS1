@@ -1,0 +1,74 @@
+@import "bootstrap/bootstrap";
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins/_breakpoints";
+
+html {
+  min-height: 100vh;
+}
+
+*, pre {
+  font-family: "Rubik", sans-serif;
+}
+
+pre {
+  font-size: 1em;
+  word-break: break-word;
+  white-space: pre-wrap;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Patua One", cursive;
+}
+
+a {
+  &.navbar-brand {
+    font-family: "Monoton", cursive;
+    font-size: 1.6em;
+  }
+
+  &.nav-link {
+    &.active span:not(.fa) {
+      @extend .pb-2;
+      border-bottom: 2px solid $light;
+    }
+    span:not(.fa) {
+      border-bottom: 2px solid transparent;
+      transition: border-bottom-color 200ms ease-out, padding-bottom 200ms ease-out, color 200ms ease-out;
+
+      &:hover {
+        @extend .pb-2;
+        border-bottom-color: $light;
+        transition: border-bottom-color 200ms ease-in, padding-bottom 200ms ease-in, color 200ms ease-in;
+      }
+    }
+  }
+}
+
+.heading-stylized {
+  @extend .border-bottom, .pb-2, .mt-1;
+}
+
+main.container {
+  padding-bottom: 60px;
+}
+
+footer {
+  @extend .bg-dark;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+
+  a {
+    font-size: 1.6em;
+    @extend .mx-1, .text-light
+  }
+}
+
+textarea {
+  resize: none;
+}

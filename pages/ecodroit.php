@@ -1,10 +1,10 @@
 <?php
-$title = "Éco-Droit";
-$page = "navEco-Droit";
+$page = "ecodroit";
 ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <title>Éco-Droit</title>
     <?php include("../includes/head.php") ?>
 </head>
 <body class="bg-dark text-white">
@@ -12,9 +12,9 @@ $page = "navEco-Droit";
 <main class="container">
     <div class="row">
         <div class="col-12">
-            <h1 class="border-bottom pb-1 mb-2">Titre de niveau 1</h1>
-            <img src="../assets/img/1920x1080.png" class="float-right img-fluid w-50 mt-1 ml-3 rounded-lg" alt="">
+            <h1 class="border-bottom pb-1 mb-3">Titre de niveau 1</h1>
             <div class="text-justify">
+                <img src="/public/images/1920x1080.png" class="float-right img-fluid w-50 ml-3 rounded-lg" alt="">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent viverra eros et dui tincidunt
                     pulvinar.
@@ -62,7 +62,7 @@ $page = "navEco-Droit";
                 </p>
             </div>
             <h2 class="border-bottom pb-1 mb-2">Titre de niveau 2</h2>
-            <img src="../assets/img/1920x1080.png" class="float-left img-fluid w-50 mt-1 mr-3 rounded-lg" alt="">
+            <img src="/public/images/1920x1080.png" class="float-left img-fluid w-50 mr-3 rounded-lg" alt="">
             <div class="text-justify">
                 <p>
                     Aenean porttitor, nulla quis ornare dapibus, magna odio pretium tortor, non convallis est lorem eu

@@ -20,7 +20,7 @@
 
 ## Chemin d'accès aux ressources
 
-[/assets/img/](./assets/img)
+[/assets/img/](public/images)
 
 ## URL du site hébergé
 [crousxchange.herokuapp.com](https://crousxchange.herokuapp.com/)

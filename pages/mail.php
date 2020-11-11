@@ -1,31 +1,36 @@
 <?php
-$title = "Mail";
-$GMAIL_ADRESSE = "crousxchange@gmail.com";
-$GMAIL_MDP = "ejvln2020";
+$page = "contact";
+define("LOGIN", "crousxchange@gmail.com");
+define("PASSWORD", "ejvln2020");
 $method = $_POST;
 $success = false;
-$champsVide = true;
 $e = "";
 
+use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
-use PHPMailer\PHPMailer\Exception;
 
 require '../vendor/autoload.php';
 
 $phpMail = new PHPMailer(true);
-$prenom = $method["prenom"];
-$nom = $method["nom"];
-$tel = $method["tel"];
-$mail = $method["mail"];
-$sujet = $method["sujet"];
-$text = $method["text"];
-$body = "";
+$prenom = "";
+$nom = "";
+$tel = "";
+$mail = "";
+$sujet = "";
+$text = "";
 
-if (isset($prenom) && isset($nom) && isset($mail) && isset($sujet) && isset($text) && isset($tel)) {
-    if (!empty($prenom) && !empty($nom) && !empty($mail) && !empty($sujet) && !empty($text)) $champsVide = false;
+if (isset($method["prenom"]) && isset($method["nom"]) && isset($method["mail"]) && isset($method["sujet"]) && isset($method["text"])) {
+    $prenom = $method["prenom"];
+    $nom = $method["nom"];
+    $mail = $method["mail"];
+    $sujet = $method["sujet"];
+    $text = $method["text"];
+    if(isset($method["tel"])) {
+        $tel = $method["tel"];
+    }
 
-    if (!$champsVide) {
+    if (!empty($prenom) && !empty($nom) && !empty($mail) && !empty($sujet) && !empty($text)) {
         try {
             $prenom = ucwords($prenom);
             $nom = strtoupper($nom);
@@ -36,11 +41,11 @@ if (isset($prenom) && isset($nom) && isset($mail) && isset($sujet) && isset($tex
             $phpMail->Port = 465;
             $phpMail->SMTPSecure = "ssl";
             $phpMail->SMTPAuth = true;
-            $phpMail->Username = $GMAIL_ADRESSE;
-            $phpMail->Password = $GMAIL_MDP;
+            $phpMail->Username = LOGIN;
+            $phpMail->Password = PASSWORD;
 
-            $phpMail->setFrom($GMAIL_ADRESSE, $prenom . " " . $nom);
-            $phpMail->AddAddress($GMAIL_ADRESSE, "crousXchange");
+            $phpMail->setFrom(LOGIN, $prenom . " " . $nom);
+            $phpMail->AddAddress(LOGIN, "crousXchange");
             $phpMail->isHTML(true);
             $phpMail->CharSet = 'UTF-8';
             $phpMail->Subject = $sujet;
@@ -66,6 +71,7 @@ if (isset($prenom) && isset($nom) && isset($mail) && isset($sujet) && isset($tex
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <title>Mail</title>
     <?php include("../includes/head.php") ?>
 </head>
 <body class="bg-dark text-white">
