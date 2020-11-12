@@ -37,7 +37,7 @@ if (isset($method["prenom"]) && isset($method["nom"]) && isset($method["mail"]) 
             $prenom = ucwords($prenom);
             $nom = strtoupper($nom);
 
-            $phpMail->SMTPDebug = SMTP::DEBUG_CONNECTION;
+            $phpMail->SMTPDebug = SMTP::DEBUG_OFF;
             $phpMail->isSMTP();
             $phpMail->Host = $_ENV['MAIL_DSN'];
             $phpMail->SMTPAuth = true;
