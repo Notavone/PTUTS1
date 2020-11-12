@@ -36,7 +36,7 @@ if (isset($method["prenom"]) && isset($method["nom"]) && isset($method["mail"]) 
             $nom = strtoupper($nom);
 
             $phpMail->isSMTP();
-            $phpMail->SMTPDebug = SMTP::DEBUG_OFF;
+            $phpMail->SMTPDebug = SMTP::DEBUG_CONNECTION;
             $phpMail->Host = "smtp.gmail.com";
             $phpMail->Port = 465;
             $phpMail->SMTPSecure = "ssl";
