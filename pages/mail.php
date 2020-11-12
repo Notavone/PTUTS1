@@ -48,7 +48,7 @@ if (isset($method["prenom"]) && isset($method["nom"]) && isset($method["mail"]) 
             $phpMail->CharSet = PHPMailer::CHARSET_UTF8;
 
             $phpMail->setFrom($sender, $prenom . " " . $nom);
-            $phpMail->AddAddress($sender, "crousXchange");
+            $phpMail->AddAddress($sender, "Self");
             $phpMail->isHTML(true);
             $phpMail->Subject = $sujet;
 
