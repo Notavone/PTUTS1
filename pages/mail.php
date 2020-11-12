@@ -6,9 +6,9 @@ $method = $_POST;
 $success = false;
 $e = "";
 
-use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
 
 require '../vendor/autoload.php';
 
@@ -35,18 +35,18 @@ if (isset($method["prenom"]) && isset($method["nom"]) && isset($method["mail"]) 
             $prenom = ucwords($prenom);
             $nom = strtoupper($nom);
 
-            $phpMail->isSMTP();
             $phpMail->SMTPDebug = SMTP::DEBUG_CONNECTION;
-            $phpMail->Host = "imap.gmail.com";
-            $phpMail->Port = 465;
+            $phpMail->isSMTP();
+            $phpMail->Host = "smtp.gmail.com";
             $phpMail->SMTPAuth = true;
             $phpMail->Username = LOGIN;
             $phpMail->Password = PASSWORD;
+            $phpMail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+            $phpMail->Port = 587;
 
             $phpMail->setFrom(LOGIN, $prenom . " " . $nom);
             $phpMail->AddAddress(LOGIN, "crousXchange");
             $phpMail->isHTML(true);
-            $phpMail->CharSet = 'UTF-8';
             $phpMail->Subject = $sujet;
 
             $body = "<b>De : </b>" . $prenom . " " . $nom;
