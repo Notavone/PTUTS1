@@ -27,6 +27,7 @@
   ],
   "require": {
     "phpmailer/phpmailer": "dev-master",
-    "league/oauth2-google": "dev-master"
+    "league/oauth2-google": "dev-master",
+    "vlucas/phpdotenv": "5.2.x-dev"
   }
 }

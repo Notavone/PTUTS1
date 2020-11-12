@@ -1,17 +1,19 @@
 <?php
 $page = "contact";
-define("LOGIN", "crousxchange@gmail.com");
-define("PASSWORD", "ejvln2020");
 $method = $_POST;
 $success = false;
 $e = "";
 
+require '../vendor/autoload.php';
+
+use Dotenv\Dotenv;
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
+$dotenv = Dotenv::createImmutable('../');
+$dotenv->load();
 
-require '../vendor/autoload.php';
-
+$sender = $_ENV['MAIL_LOGIN'];
 $phpMail = new PHPMailer(true);
 $prenom = "";
 $nom = "";
@@ -37,15 +39,16 @@ if (isset($method["prenom"]) && isset($method["nom"]) && isset($method["mail"]) 
 
             $phpMail->SMTPDebug = SMTP::DEBUG_CONNECTION;
             $phpMail->isSMTP();
-            $phpMail->Host = "smtp.gmail.com";
+            $phpMail->Host = $_ENV['MAIL_DSN'];
             $phpMail->SMTPAuth = true;
-            $phpMail->Username = LOGIN;
-            $phpMail->Password = PASSWORD;
+            $phpMail->Username = $sender;
+            $phpMail->Password = $_ENV['MAIL_PSSWD'];
             $phpMail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $phpMail->Port = 587;
+            $phpMail->CharSet = PHPMailer::CHARSET_UTF8;
 
-            $phpMail->setFrom(LOGIN, $prenom . " " . $nom);
-            $phpMail->AddAddress(LOGIN, "crousXchange");
+            $phpMail->setFrom($sender, $prenom . " " . $nom);
+            $phpMail->AddAddress($sender, "crousXchange");
             $phpMail->isHTML(true);
             $phpMail->Subject = $sujet;
 
