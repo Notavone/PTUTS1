@@ -20,9 +20,9 @@ Analyse de la création d'un système de ventes et d'échanges entre étudiants
 
 ## Tracés régulateurs
 
-![/assets/img/zoning_laptop.png]()
-![/assets/img/zoning_phone.png]()
-![/assets/img/zoning_phone_preview.png]()
+![](/assets/img/zoning_laptop.png)
+![](/assets/img/zoning_phone.png)
+![](/assets/img/zoning_phone_preview.png)
 
 ## URL du site hébergé
 [ptuts1.notavone.fr](https://ptuts1.notavone.fr/)
