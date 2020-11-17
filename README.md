@@ -2,7 +2,7 @@
 
 ## Sujet
 
-*A redéfinir*
+Analyse de la création d'un système de ventes et d'échanges entre étudiants
 
 ## Composition du groupe
 
@@ -18,11 +18,13 @@
 *  Alain **MILLET** (Forme)
 *  Thierry **SAHLER** (Éco-Droit)
 
-## Chemin d'accès aux ressources
+## Tracés régulateurs
 
-[/assets/img/](public/images)
+![/assets/img/zoning_laptop.png]()
+![/assets/img/zoning_phone.png]()
+![/assets/img/zoning_phone_preview.png]()
 
 ## URL du site hébergé
-[crousxchange.herokuapp.com](https://crousxchange.herokuapp.com/)
+[ptuts1.notavone.fr](https://ptuts1.notavone.fr/)
 
 ---
