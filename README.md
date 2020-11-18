@@ -30,6 +30,10 @@ Analyse de la création d'un système de ventes et d'échanges entre étudiants
 
 ![](public/images/zoning_phone_preview.png)
 
+## Documents
+
+Chemin d'accès : [](public/doc)
+
 ## URL du site hébergé
 [ptuts1.notavone.fr](https://ptuts1.notavone.fr/)
 
