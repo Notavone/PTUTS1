@@ -75,7 +75,7 @@ $page = "contact";
         <div class="text-center">
             <button class="btn btn-outline-light">Valider</button>
             <button class="btn btn-outline-light">Remettre à zéro</button>
-            <p class="form-text">Les champs suivis d'un <abbr title="*">astérix</abbr> son requis</p>
+            <p class="form-text">Les champs suivis d'un <abbr title="*">astérisque</abbr> son requis</p>
         </div>
     </form>
 </main>
