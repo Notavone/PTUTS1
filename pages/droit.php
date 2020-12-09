@@ -4,7 +4,7 @@ $page = "ecodroit";
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>Éco-Droit</title>
+    <title>Droit</title>
     <?php include("../includes/head.php") ?>
 </head>
 <body class="bg-dark text-white">
