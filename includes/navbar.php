@@ -10,8 +10,8 @@
             <li class="nav-item"><a class="nav-link <?php if ($page == 'accueil') echo "active" ?>"
                                     href="/"><span><span class="fa fa-home"></span> Accueil</span></a>
             </li>
-            <li class="nav-item"><a class="nav-link <?php if ($page == 'presentation') echo "active" ?>"
-                                    href="/pages/presentation.php"><span><span class="fa fa-microphone"></span> Présentation</span></a>
+            <li class="nav-item"><a class="nav-link <?php if ($page == 'analyse') echo "active" ?>"
+                                    href="/pages/analyse.php"><span><span class="fa fa-microphone"></span> Analyse</span></a>
             </li>
 
             <li class="nav-item dropdown">

@@ -1,5 +1,5 @@
 <?php
-$page = "presentation";
+$page = "analyse";
 ?>
 <!DOCTYPE html>
 <html lang="fr">
