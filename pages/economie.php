@@ -151,7 +151,7 @@ $page = "ecodroit";
                                 <li>publicités : Solution la plus évidente, elle présente cependant quelques
                                     inconvénients :
                                 </li>
-                                <li>
+                                <li class="list-unstyled">
                                     <ul>
                                         <li>Le ras-le-bol des internautes : En effet, si les utilisateurs se sentent
                                             trop agressés ou si les pubs sont trop envahissantes, cela peut avoir un
