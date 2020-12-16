@@ -65,10 +65,14 @@ footer {
 
   a {
     font-size: 1.6em;
-    @extend .mx-1, .text-light
+    @extend .mx-1, .text-light;
   }
 }
 
 textarea {
   resize: none;
+}
+
+.card-body, .card-header {
+  @extend .bg-dark, .text-light, .text-justify;
 }

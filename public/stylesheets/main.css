@@ -6072,13 +6072,17 @@ button.bg-light:focus {
   background-color: #dae0e5 !important;
 }
 
-.bg-dark, footer {
+.bg-dark, .card-body, .card-header, footer {
   background-color: #343a40 !important;
 }
 
-a.bg-dark:hover, a.bg-dark:focus,
+a.bg-dark:hover, a.card-body:hover, a.card-header:hover, a.bg-dark:focus, a.card-body:focus, a.card-header:focus,
 button.bg-dark:hover,
-button.bg-dark:focus {
+button.card-body:hover,
+button.card-header:hover,
+button.bg-dark:focus,
+button.card-body:focus,
+button.card-header:focus {
   background-color: #1d2124 !important;
 }
 
@@ -9573,7 +9577,7 @@ footer a {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
 }
 
-.text-justify {
+.text-justify, .card-body, .card-header {
   text-align: justify !important;
 }
 
@@ -9743,11 +9747,11 @@ a.text-danger:hover, a.text-danger:focus {
   color: #a71d2a !important;
 }
 
-.text-light, footer a {
+.text-light, .card-body, .card-header, footer a {
   color: #f8f9fa !important;
 }
 
-a.text-light:hover, footer a:hover, a.text-light:focus, footer a:focus {
+a.text-light:hover, a.card-body:hover, a.card-header:hover, footer a:hover, a.text-light:focus, a.card-body:focus, a.card-header:focus, footer a:focus {
   color: #cbd3da !important;
 }
 
