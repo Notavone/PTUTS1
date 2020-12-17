@@ -9577,7 +9577,7 @@ footer a {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
 }
 
-.text-justify, .card-body, .card-header {
+.text-justify, p, .card-body, .card-header {
   text-align: justify !important;
 }
 

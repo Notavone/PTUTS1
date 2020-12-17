@@ -76,3 +76,7 @@ textarea {
 .card-body, .card-header {
   @extend .bg-dark, .text-light, .text-justify;
 }
+
+p {
+  @extend .text-justify;
+}
