@@ -107,9 +107,10 @@ if (isset($_POST['tel'])) {
                         <div class="input-group-prepend">
                             <label class="input-group-text" for="prenom">Prénom*</label>
                         </div>
-                        <input class="form-control" type="text" id="prenom" name="prenom" value="<?php if (isset($prenom)) echo $prenom?>">
+                        <input class="form-control" type="text" id="prenom" name="prenom"
+                               value="<?php if (isset($prenom)) echo $prenom ?>">
                     </div>
-                    <?php if (isset($ePrenom)):?>
+                    <?php if (isset($ePrenom)): ?>
                         <small class="text-warning"><?php echo $ePrenom ?></small class="text-warning">
                     <?php endif; ?>
                 </div>
@@ -119,11 +120,12 @@ if (isset($_POST['tel'])) {
                         <div class="input-group-prepend">
                             <label class="input-group-text" for="nom">Nom*</label>
                         </div>
-                        <input class="form-control" type="text" id="nom" name="nom" value="<?php if (isset($nom)) echo $nom?>">
+                        <input class="form-control" type="text" id="nom" name="nom"
+                               value="<?php if (isset($nom)) echo $nom ?>">
                     </div>
-                    <?php if (isset($eNom)):?>
-                        <small class="text-warning"><?php echo $eNom?></small class="text-warning">
-                    <?php endif;?>
+                    <?php if (isset($eNom)): ?>
+                        <small class="text-warning"><?php echo $eNom ?></small class="text-warning">
+                    <?php endif; ?>
                 </div>
 
                 <div class="form-group col-12 col-lg-4">
@@ -131,11 +133,12 @@ if (isset($_POST['tel'])) {
                         <div class="input-group-prepend">
                             <label class="input-group-text" for="tel">Téléphone</label>
                         </div>
-                        <input class="form-control" type="text" id="tel" name="tel" value="<?php if (isset($tel)) echo $tel?>">
+                        <input class="form-control" type="text" id="tel" name="tel"
+                               value="<?php if (isset($tel)) echo $tel ?>">
                     </div>
-                    <?php if (isset($eTel)):?>
-                        <small class="text-warning"><?php echo $eTel?></small class="text-warning">
-                    <?php endif;?>
+                    <?php if (isset($eTel)): ?>
+                        <small class="text-warning"><?php echo $eTel ?></small class="text-warning">
+                    <?php endif; ?>
                 </div>
 
                 <div class="form-group col-12">
@@ -143,11 +146,12 @@ if (isset($_POST['tel'])) {
                         <div class="input-group-prepend">
                             <label class="input-group-text" for="mail">Adresse e-mail*</label>
                         </div>
-                        <input class="form-control" type="text" id="mail" name="mail" value="<?php if (isset($mail)) echo $mail?>">
+                        <input class="form-control" type="text" id="mail" name="mail"
+                               value="<?php if (isset($mail)) echo $mail ?>">
                     </div>
-                    <?php if (isset($eMail)):?>
-                        <small class="text-warning"><?php echo $eMail?></small class="text-warning">
-                    <?php endif;?>
+                    <?php if (isset($eMail)): ?>
+                        <small class="text-warning"><?php echo $eMail ?></small class="text-warning">
+                    <?php endif; ?>
                 </div>
             </div>
             <h2>Que pouvons-nous faire pour vous ?</h2>
@@ -157,11 +161,12 @@ if (isset($_POST['tel'])) {
                         <div class="input-group-prepend">
                             <label class="input-group-text" for="sujet">Sujet*</label>
                         </div>
-                        <input class="form-control" type="text" id="sujet" name="sujet" value="<?php if (isset($sujet)) echo $sujet?>">
+                        <input class="form-control" type="text" id="sujet" name="sujet"
+                               value="<?php if (isset($sujet)) echo $sujet ?>">
                     </div>
-                    <?php if (isset($eSujet)):?>
-                        <small class="text-warning"><?php echo $eSujet?></small class="text-warning">
-                    <?php endif;?>
+                    <?php if (isset($eSujet)): ?>
+                        <small class="text-warning"><?php echo $eSujet ?></small class="text-warning">
+                    <?php endif; ?>
                 </div>
 
                 <div class="form-group col-12">
@@ -169,11 +174,12 @@ if (isset($_POST['tel'])) {
                         <div class="input-group-prepend">
                             <label class="input-group-text" for="text">Contenu*</label>
                         </div>
-                        <textarea class="form-control" name="text" id="text" rows="8"><?php if (isset($text)) echo $text?></textarea>
+                        <textarea class="form-control" name="text" id="text"
+                                  rows="8"><?php if (isset($text)) echo $text ?></textarea>
                     </div>
-                    <?php if (isset($eText)):?>
-                        <small class="text-warning"><?php echo $eText?></small class="text-warning">
-                    <?php endif;?>
+                    <?php if (isset($eText)): ?>
+                        <small class="text-warning"><?php echo $eText ?></small class="text-warning">
+                    <?php endif; ?>
                 </div>
             </div>
             <div class="text-center">
