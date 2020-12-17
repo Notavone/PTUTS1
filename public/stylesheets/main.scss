@@ -12,6 +12,7 @@ html {
 }
 
 pre {
+  @extend .text-light;
   font-size: 1em;
   word-break: break-word;
   white-space: pre-wrap;
@@ -32,6 +33,7 @@ a {
       @extend .pb-2;
       border-bottom: 2px solid $light;
     }
+
     span:not(.fa) {
       border-bottom: 2px solid transparent;
       transition: border-bottom-color 200ms ease-out, padding-bottom 200ms ease-out, color 200ms ease-out;

@@ -9747,7 +9747,7 @@ a.text-danger:hover, a.text-danger:focus {
   color: #a71d2a !important;
 }
 
-.text-light, .card-body, .card-header, footer a {
+.text-light, .card-body, .card-header, footer a, pre {
   color: #f8f9fa !important;
 }
 
