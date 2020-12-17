@@ -13,86 +13,102 @@ $page = "analyse";
     <div class="row">
         <div class="col-12">
             <h1 class="border-bottom pb-1 mb-3 text-center">Analyse du sondage</h1>
-            <div class="text-justify">
-                <img src="/public/images/sondage1.png" class="float-left img-fluid w-50 mr-3 rounded-lg" alt="">
-                <p>
-                    Nous avons réalisé un sondage, nous permettant de savoir si les personnes interrogées sont intéressées par la création d'un site d'échange
-                    et d'entraide entre étudiant, heureusement, beaucoup de personnes ont répondu présentes, ce qui nous a permis de récolter 48 avis complets sur le sujet
-                </p>
-                <p>
-                    Nous voudrions tout d'abord remercier toutes ces personnes qui ont pris le temps de répondre à notre sondage. Nous avons donc eu des statistiques très précises
-                    à analyser et la grande majorité a contribué à la recherche très sérieusement.
-                </p>
-            </div>
+            <img src="/public/images/sondage1.png" class="float-left img-fluid w-50 mr-3 rounded-lg" alt="">
+            <p>
+                Nous avons réalisé un sondage, nous permettant de savoir si les personnes interrogées sont intéressées
+                par la création d'un site d'échange
+                et d'entraide entre étudiant, heureusement, beaucoup de personnes ont répondu présentes, ce qui nous a
+                permis de récolter 48 avis complets sur le sujet
+            </p>
+            <p>
+                Nous voudrions tout d'abord remercier toutes ces personnes qui ont pris le temps de répondre à notre
+                sondage. Nous avons donc eu des statistiques très précises
+                à analyser et la grande majorité a contribué à la recherche très sérieusement.
+            </p>
             <h3 class="border-bottom pb-1 mb-2">Information générales sur les personnes</h3>
-            <div class="text-justify">
-                <p>
-                    Le sondage se fit partager notamment sur les systèmes de communication entre étudiant de l'iut, notamment Discord. Comme la section informatique est composée en grande majorité
-                    d'hommes, 42 réponses ont étées faites par des hommes. Concernant l'âge, on peut observer qu'une grande majorité des personnes ont entre 18 et 21 ans (42), âge moyen des personnes
-                    étudiant en DUT Informatique, rien de bien spécial jusque-là...
-                </p>
-            </div>
+            <p>
+                Le sondage se fit partager notamment sur les systèmes de communication entre étudiant de l'iut,
+                notamment Discord. Comme la section informatique est composée en grande majorité
+                d'hommes, 42 réponses ont étées faites par des hommes. Concernant l'âge, on peut observer qu'une grande
+                majorité des personnes ont entre 18 et 21 ans (42), âge moyen des personnes
+                étudiant en DUT Informatique, rien de bien spécial jusque-là...
+            </p>
 
             <h2 class="border-bottom pb-1 mb-2">Concept du site</h2>
             <img src="/public/images/sondage6.png" class="float-right img-fluid ml-2 w-50 mr-3 rounded-lg" alt="">
+            <p>
+                On peut tout d'abord noter un certain engoument pour le projet, 81% des personnes ayant répondu Oui.
+                Nous avons d'ailleurs parlé dans notre rapport du public visé par la création d'un site du genre
+                et ces réponses nous prouvent bien que les étudiants utiliseraient ce site plus qu'un autre, comme
+                Leboncoin.
+                Cet engoument est sûrement le résultat d'une confiance plus élevée entre les élèves du même IUT par
+                rapport
+                à de parfaits inconnnus.
 
-
-            <div class="text-justify">
-                <p>
-                    On peut tout d'abord noter un certain engoument pour le projet, 81% des personnes ayant répondu Oui.
-                    Nous avons d'ailleurs parlé dans notre rapport du public visé par la création d'un site du genre
-                    et ces réponses nous prouvent bien que les étudiants utiliseraient ce site plus qu'un autre, comme Leboncoin.
-                    Cet engoument est sûrement le résultat d'une confiance plus élevée entre les élèves du même IUT par rapport
-                    à de parfaits inconnnus.
-
-                </p>
-            </div>
+            </p>
             <img src="/public/images/sondage2.png" class="float-right img-fluid ml-2 w-50 mr-3 rounded-lg" alt="">
-            <div class="text-justify">
-                <p>
-                    Pour la question "Si oui, de quelle manière ?", nous avons des réponses très intéressantes, car plutôt partagéees. A peu près 1/3 des personnes interrogées
-                    ayant répondu "Oui" à la proposition de création d'un site de ce genre ont précisés qu'ils préfereraient que
-                    ce site soit au niveau national, c'est-à-dire que les étudiants de toute la France peuvent vendre et echanger
-                    entre eux. Une autre petite moitié des personnes préfereraient une création d'un petit réseau local, à l'échelle de
-                    l'IUT. Pour ces personnes, il serait plus pratique de pouvoir se rencontrer en personne (hors crise de la COVID évidemment).
-                    Entre les deux extremités, nous avons certaines personnes qui pensent à un réseau régional, sorte de juste milieu entre les deux
-                    autres solutions. Un réseau régional permetterai encore aux étudiants de se rencontrer tout en augementant le nombre d'utilisateurs
-                    potentiels.
-                </p>
-                <p>
-                    Concernant l'utilisation que font les personnes intérrogées des systèmes de vente d'occasion déjà existant, nous avons une majorité
-                    de personne les utilisants pour vendre/acheter des objets de manière occasionnelle. Un autre quart de personnes n'utilisent presque jamais
-                    voir jamais ces services. Ce qui est quand même intéressant, c'est de voir que une grande partie des étudiant utilisent -même si c'est de manière
-                    occasionnelle- ces services et qu'ils utiliseront sans doute ce même service, mais entre étudiants.
-                </p>
-            </div>
-            <h2 class="border-bottom pb-1 mb-2">Spécificités sur l'utilisation des sites de vente et d'échange en ligne</h2>
+            <p>
+                Pour la question "Si oui, de quelle manière ?", nous avons des réponses très intéressantes, car plutôt
+                partagéees. A peu près 1/3 des personnes interrogées
+                ayant répondu "Oui" à la proposition de création d'un site de ce genre ont précisés qu'ils préfereraient
+                que
+                ce site soit au niveau national, c'est-à-dire que les étudiants de toute la France peuvent vendre et
+                echanger
+                entre eux. Une autre petite moitié des personnes préfereraient une création d'un petit réseau local, à
+                l'échelle de
+                l'IUT. Pour ces personnes, il serait plus pratique de pouvoir se rencontrer en personne (hors crise de
+                la COVID évidemment).
+                Entre les deux extremités, nous avons certaines personnes qui pensent à un réseau régional, sorte de
+                juste milieu entre les deux
+                autres solutions. Un réseau régional permetterai encore aux étudiants de se rencontrer tout en
+                augementant le nombre d'utilisateurs
+                potentiels.
+            </p>
+            <p>
+                Concernant l'utilisation que font les personnes intérrogées des systèmes de vente d'occasion déjà
+                existant, nous avons une majorité
+                de personne les utilisants pour vendre/acheter des objets de manière occasionnelle. Un autre quart de
+                personnes n'utilisent presque jamais
+                voir jamais ces services. Ce qui est quand même intéressant, c'est de voir que une grande partie des
+                étudiant utilisent -même si c'est de manière
+                occasionnelle- ces services et qu'ils utiliseront sans doute ce même service, mais entre étudiants.
+            </p>
+            <h2 class="border-bottom pb-1 mb-2">Spécificités sur l'utilisation des sites de vente et d'échange en
+                ligne</h2>
             <img src="/public/images/sondage3.png" class="float-left img-fluid ml-2 w-50 mr-3 rounded-lg" alt="">
-            <div class="text-justify">
-                <p>
-                    Dans cette avant-dernière section, nous essayons de récupérer des avis plus précis concerant les sites semblables déjà disponlibles.
-                    Nous demandons tout d'abord aux interrogés quelles sont leurs préférences au niveau choix du site. Evidemment, le site Leboncoin est
-                    le plus populaire, car le plus célèbre au niveau Français. Cependant, 22 personnes préfèrent se tourner vers Ebay ou Vinted, sites plus
-                    spécialisés mais moins connus. Le fait que Leboncoin se trouve grand gagnant vient de sa capacité à pouvoir gérer un grand nombre d'utilisateurs
-                    et d'annonces, le rendant très ergonomique et facile à utiliser, contrairement à certains de ses concurrents.
-                </p>
-                <p>
-                    50% des personnes interrogées déclarent préférer les virements bancaires de particulier en particulier, se basant donc grandement sur la confiance.
-                    Il faut savoir que Leboncoin a mis en place un système de paiement 100% sécurisé, permettant aux utilisateur d'être remboursés au cas ou l'objet n'arrive
-                    pas à destination et pour éviter les tentatives d'arnaques, beaucoup plus probables avec les systèmes de paiement de proche en proche. Un dernier quart de personnes
-                    préfèrent se voir en personne, transférer l'objet et l'argent en main propre, réduisant les chances d'arnaques à 0, mais le risque de rencontrer une
-                    personne louche est toujours là.
-                </p>
-            </div>
+            <p>
+                Dans cette avant-dernière section, nous essayons de récupérer des avis plus précis concerant les sites
+                semblables déjà disponlibles.
+                Nous demandons tout d'abord aux interrogés quelles sont leurs préférences au niveau choix du site.
+                Evidemment, le site Leboncoin est
+                le plus populaire, car le plus célèbre au niveau Français. Cependant, 22 personnes préfèrent se tourner
+                vers Ebay ou Vinted, sites plus
+                spécialisés mais moins connus. Le fait que Leboncoin se trouve grand gagnant vient de sa capacité à
+                pouvoir gérer un grand nombre d'utilisateurs
+                et d'annonces, le rendant très ergonomique et facile à utiliser, contrairement à certains de ses
+                concurrents.
+            </p>
+            <p>
+                50% des personnes interrogées déclarent préférer les virements bancaires de particulier en particulier,
+                se basant donc grandement sur la confiance.
+                Il faut savoir que Leboncoin a mis en place un système de paiement 100% sécurisé, permettant aux
+                utilisateur d'être remboursés au cas ou l'objet n'arrive
+                pas à destination et pour éviter les tentatives d'arnaques, beaucoup plus probables avec les systèmes de
+                paiement de proche en proche. Un dernier quart de personnes
+                préfèrent se voir en personne, transférer l'objet et l'argent en main propre, réduisant les chances
+                d'arnaques à 0, mais le risque de rencontrer une
+                personne louche est toujours là.
+            </p>
             <img src="/public/images/sondage4.png" class="float-right img-fluid ml-2 w-50 mr-3 rounded-lg" alt="">
-            <div class="text-justify">
-                <p>
-                    Finalement, nous terminons avec la notion de confiance que nous venons d'aborder. La confiance est différente lors d'un échange physique ou d'un
-                    envoi suivi d'une transaction virtuelle, nous avons ici laissé aux interrogés leur libre interprétation. Une majorité de personnes ont pourtant une
-                    assez grande confiance pour la personne à qui ils vendent/achètent un objet, ce qui explique le fait que de nombreuses personnes préfèrent les transaction
-                    via virement bancaire, se basant sur une confiance entre les deux personnes.
-                </p>
-            </div>
+            <p>
+                Finalement, nous terminons avec la notion de confiance que nous venons d'aborder. La confiance est
+                différente lors d'un échange physique ou d'un
+                envoi suivi d'une transaction virtuelle, nous avons ici laissé aux interrogés leur libre interprétation.
+                Une majorité de personnes ont pourtant une
+                assez grande confiance pour la personne à qui ils vendent/achètent un objet, ce qui explique le fait que
+                de nombreuses personnes préfèrent les transaction
+                via virement bancaire, se basant sur une confiance entre les deux personnes.
+            </p>
         </div>
     </div>
 </main>
