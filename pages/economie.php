@@ -17,17 +17,17 @@ $page = "ecodroit";
                 <div class="card">
                     <div class="card-header" id="headingOne">
                         <h5 class="mb-0">
-                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                            <button class="btn btn-link text-white" data-toggle="collapse" data-target="#collapseOne"
                                     aria-expanded="true" aria-controls="collapseOne">
                                 Nombres de clients potentiels
                             </button>
                         </h5>
                     </div>
-                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                         <div class="card-body">
                             <p>Le type de client visé sont les étudiants, de préférence habitants dans une résidence
                                 universitaire à Belfort, dans ce genre de résidence les étudiants sont souvent à
-                                proximité les uns des autres et c’est celà qui pourrait faciliter l’accès aux services
+                                proximité les uns des autres et c’est cela qui pourrait faciliter l’accès aux services
                                 d’échanges. Dans une résidence comme la résidence Duvillard, à proximité de l’IUT de
                                 Belfort-Montbéliard, on compte environ 300 chambres, si l’on multiplie cela par le
                                 nombre de résidences à Belfort on obtient une bagatelle d’environ 1000 étudiants (tout
@@ -68,7 +68,7 @@ $page = "ecodroit";
                 <div class="card">
                     <div class="card-header" id="headingTwo">
                         <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                            <button class="btn btn-link text-white" data-toggle="collapse" data-target="#collapseTwo"
                                     aria-expanded="false" aria-controls="collapseTwo">
                                 Enjeux économiques et sociaux
                             </button>
@@ -128,7 +128,7 @@ $page = "ecodroit";
                 <div class="card">
                     <div class="card-header" id="headingThree">
                         <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                            <button class="btn btn-link text-white" data-toggle="collapse" data-target="#collapseThree"
                                     aria-expanded="false" aria-controls="collapseThree">
                                 Sources de revenus potentiels
                             </button>
@@ -142,7 +142,7 @@ $page = "ecodroit";
                                 pourquoi, lors de la création d’un site comme celui-ci, cette solution semble la plus
                                 appropriée. Mais nous pouvons aller un peu plus loin et trouver de nouvelles idées : En
                                 effet, quand on y réfléchit et qu’on porte notre regard sur les sites concurrents, il
-                                existe de nombreuses autres options : La vente d’abonnement, qui permetterai d’accéder à
+                                existe de nombreuses autres options : La vente d’abonnement, qui permettrai d’accéder à
                                 d’autres fonctionnalités plus poussées, ou alors le meilleur référencement d’une offre,
                                 qui lui permettra de se vendre beaucoup plus vite, car elle sera plus vue par les
                                 utilisateurs. Dans cette partie, nous allons les analyser au cas par cas et déterminer
@@ -191,7 +191,7 @@ $page = "ecodroit";
                 <div class="card">
                     <div class="card-header" id="headingFour">
                         <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
+                            <button class="btn btn-link text-white" data-toggle="collapse" data-target="#collapseFour"
                                     aria-expanded="false" aria-controls="collapseFour">
                                 Recherches d'associations ou d'entreprises similaires
                             </button>
