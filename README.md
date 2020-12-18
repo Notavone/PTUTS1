@@ -32,6 +32,7 @@ Analyse de la création d'un système de ventes et d'échanges entre étudiants
 *  [Plan du rapport](/public/doc/Plan%20détaillé%20du%20rapport.pdf)
 *  [Introduction du rapport](/public/doc/Introduction%20du%20rapport.pdf)
 *  [Squelette du rapport](/public/doc/Squelette%20du%20rapport.pdf)
+*  [Rapport complet](/public/doc/Rapport%20-%20Projet%20tuteuré.pdf)
 
 ### Site
 
