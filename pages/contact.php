@@ -15,12 +15,12 @@ $phpMailer = new PHPMailer(true);
 
 if (isset($_POST['prenom'])) {
     $prenom = $_POST['prenom'];
-    if (!preg_match("/.{2,}/", $prenom)) $ePrenom = "Ce champs doit contenir 2 caractères minimum";
+    if (!preg_match("/.{2,}/", $prenom)) $ePrenom = "Ce champ doit contenir 2 caractères minimums";
 }
 
 if (isset($_POST['nom'])) {
     $nom = $_POST['nom'];
-    if (!preg_match("/.{2,}/", $nom)) $eNom = "Ce champs doit contenir 2 caractères minimum";
+    if (!preg_match("/.{2,}/", $nom)) $eNom = "Ce champ doit contenir 2 caractères minimums";
 }
 
 if (isset($_POST['mail'])) {
@@ -30,12 +30,12 @@ if (isset($_POST['mail'])) {
 
 if (isset($_POST['sujet'])) {
     $sujet = $_POST['sujet'];
-    if (!preg_match("/.{2,}/", $sujet)) $eSujet = "Ce champs doit contenir 2 caractères minimum";
+    if (!preg_match("/.{2,}/", $sujet)) $eSujet = "Ce champ doit contenir 2 caractères minimums";
 }
 
 if (isset($_POST['text'])) {
     $text = $_POST['text'];
-    if (!preg_match("/.{2,}/", $text)) $eText = "Ce champs doit contenir 2 caractères minimum";
+    if (!preg_match("/.{2,}/", $text)) $eText = "Ce champ doit contenir 2 caractères minimums";
 }
 
 if (isset($_POST['tel'])) {
@@ -71,10 +71,10 @@ if (isset($_POST['tel'])) {
 
             $body = "<b>De : </b>" . $prenom . " " . $nom;
             if (!empty($tel)) $body = $body . "<br><b>Numéro de téléphone : </b>" . $tel;
-            $body = $body . "<br><b>Adresse mail : </b>" . $mail . "<br><b>Texte : </b><br>" . $text;
+            $body = $body . "<br><b>Adresse mail : </b>" . $mail . "<br><b>Message : </b><br>" . $text;
             $phpMailer->Body = $body;
             if ($phpMailer->send()) : ?>
-                <h1 class='heading-stylized text-center'>Message envoyé!</h1>
+                <h1 class='heading-stylized text-center'>Message envoyé !</h1>
                 <h2>Récapitulatif</h2>
 
                 <h3>Vous êtes :</h3>

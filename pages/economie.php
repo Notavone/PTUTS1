@@ -31,7 +31,7 @@ $page = "ecodroit";
                                 d’échanges. Dans une résidence comme la résidence Duvillard, à proximité de l’IUT de
                                 Belfort-Montbéliard, on compte environ 300 chambres, si l’on multiplie cela par le
                                 nombre de résidences à Belfort on obtient une bagatelle d’environ 1000 étudiants (tout
-                                cela sans compter ceux qui ne sont pas au crous mais dans des appartement pour
+                                cela sans compter ceux qui ne sont pas au CROUS mais dans des appartement pour
                                 particuliers ou tout simplement chez un membre de leur famille) Selon le site du Grand
                                 Belfort on compte environ 7000 étudiants dans l’aire urbaine dont 5000 au sein de
                                 l'agglomération elle-même, on apprend aussi que cet effectif représente 20% des
