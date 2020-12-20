@@ -9,11 +9,11 @@ $page = "accueil";
 </head>
 <body class="bg-dark text-white">
 <?php include("./includes/navbar.php") ?>
-<main class="container">
+<main class="container" style="margin-bottom: 125px">
     <h1 class="heading-stylized text-center mt-4">Accueil</h1>
     <div class="text-center mt-4">
         <img class="shadow img-fluid" src="./public/images/accueil_intro.png" alt="">
-        <p class="mt-3">Le but de notre projet à été d'analyser la création d'un système de ventes et d'échanges entre étudiants. Pour ce faire nous avons travailler
+        <p class="mt-3 text-center">Le but de notre projet à été d'analyser la création d'un système de ventes et d'échanges entre étudiants. Pour ce faire nous avons travailler
         pendant des semaines pour mettre en place toute une organisation de groupe, l'écriture sur différents aspects comme l'économie et le droit et la
         construction de ce site de présentation.</p>
     </div>
